@@ -1,0 +1,116 @@
+/* *{
+  background-color: teal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+body {
+  background-color: black;
+}
+.header-container {
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+
+}
+.input{
+  width: 500px;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: lightgrey;
+
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.movie-card {
+  border-radius: 6px;
+  position: relative;
+  margin: 3rem;
+  width: 400px;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 5%);
+}
+.movie-card > img {
+  width: 100%;
+  height: 500px;
+}
+.movie-card > h3, .movie-card > p {
+  color: lightgray;
+  padding: 0.2rem;
+  text-align: center;
+}
+.button {
+  background: white;
+  outline: 0;
+  margin: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  border: 5px solid rgba(0, 0, 0, 0.37);
+  padding: 0.5rem 2rem;
+}
+.button:hover {
+  background-color: lightgreen;
+}
+form {
+  border-radius: 6px;
+  background-color: grey;
+  font-size: 25px;
+  width: calc(100vw / 1.8);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+form > input {
+  background-color: lightgrey;
+  font-size: 20px;
+  padding: 0.7em;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label{
+  background-color: grey;
+}
+.add-rate{
+  background-color: grey;
+}
+
+.add-button {
+  background-color: grey;
+  border-radius: 5px;
+  width: 100px;
+  border: 5px solid rgba(0, 0, 0, 0.37);
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+.add-button {
+  background-color: lightgreen;
+  border-radius: 5px;
+  width: 200px;
+  border: 5px solid rgba(0, 0, 0, 0.37);
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+.cancel-button {
+  background-color: lightgreen;
+  border-radius: 5px;
+  width: 200px;
+  border: 5px solid rgba(0, 0, 0, 0.37);
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+.dual-button{
+  background-color: grey;
+}
